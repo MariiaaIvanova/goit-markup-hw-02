@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+.logo {
+   color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-part {
+    color: #2196F3;
+}
+.logo:hover {
+    color: #2196F3;
+}
+.site-nav a {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: #2196F3;
+}
+.contacts-nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: #2196F3;
+}
+
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+
+
