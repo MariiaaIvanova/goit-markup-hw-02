@@ -15,6 +15,7 @@
     --bcg-secondary-color:#F5F4FA;
     --bcg-section-color: #2F303A;
     --bcg-accent-color: #2196F3;
+    --bcg-button-hover-color: #188CE8;
 }
 
 body {
@@ -77,6 +78,7 @@ color: var(--accent-text-color);
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
     background-color: var(--bcg-secondary-color);
+    cursor: pointer;
 }
 .button-items:hover,
 .button-items:focus {
@@ -88,6 +90,8 @@ color: var(--accent-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color)
 }
 .work-items {
     font-weight: 400;
@@ -154,17 +158,32 @@ footer {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--section-text-color);
+}
+.main-section {
     background-color: var(--bcg-section-color);
+    width: 1600px;
+    height: 300px;
 }
 .button-order {
     font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.06em;
     color: var(--section-text-color);
     background-color: var(--bcg-accent-color);
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
 }
 .button-order:hover,
 .button-order:focus {
-    color: var(--accent-text-color);
-    background-color: var(--bcg-primery-color);
+    background-color: var(--bcg-button-hover-color);
 }
 .benefits-title {
     font-weight: 700;
@@ -183,16 +202,25 @@ footer {
     color: var(--secondary-text-color);
 
 }
-.activity {
+.activity-list {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
     letter-spacing: 0.03em;
+    text-align: center;
     color: var(--primery-text-color);
 }
 .team-section {
     background-color: var(--bcg-secondary-color);
 }
+.team-list {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .team-title {
     font-weight: 500;
     font-size: 16px;
@@ -207,4 +235,7 @@ footer {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color)
 
+}
+.team-img {
+    background-color: var(--bcg-primery-color);
 }
