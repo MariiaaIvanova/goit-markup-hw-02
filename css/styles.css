@@ -70,7 +70,7 @@ color: var(--accent-text-color);
     color: var(--accent-text-color);
 }
 .button-items {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
@@ -157,7 +157,7 @@ footer {
     background-color: var(--bcg-section-color);
 }
 .button-order {
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     color: var(--section-text-color);
     background-color: var(--bcg-accent-color);
 }
